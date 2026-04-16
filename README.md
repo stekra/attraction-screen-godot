@@ -2,7 +2,7 @@
 A simple autoload scene to show an overlay video after some idle time and restart a scene on interaction in Godot. For exhibitions.
 
 ### Set Up
-Set idle timeout time, attraction screen video, and optionally a scene to go to upon dismissal (default restarts current scene).
+Set idle timeout time, attraction screen video, and optionally a scene to go to upon dismissal (default restarts current scene) on the root node script of `attraction-screen.tscn`.
 
 <img height="120" src="https://github.com/user-attachments/assets/388c1b63-00b5-4e0d-9e91-97c4d333adcb"/><br>
 
