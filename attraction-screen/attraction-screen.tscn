@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://0n8y8k5ehmr"]
+
+[ext_resource type="Script" uid="uid://cvuld1nj4dmlw" path="res://attraction-screen/attraction-screen.gd" id="1_8fpi4"]
+
+[node name="AttractionScreen" type="Node" unique_id=1174606362]
+script = ExtResource("1_8fpi4")
+
+[node name="IdleTimer" type="Timer" parent="." unique_id=771532277]
+
+[node name="Overlay" type="CanvasLayer" parent="." unique_id=1567899436]
+layer = 128
+
+[node name="Video" type="VideoStreamPlayer" parent="Overlay" unique_id=1178075334]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand = true
+loop = true
